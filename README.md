@@ -20,13 +20,13 @@ Navigate to `http://localhost:8080/h2` will give you in memory database instace 
 
 Added Dockerfile for image using maven-docker-plugin
 
-## For build the image
+## build the image
 
 RUN `mvnw install && dockerfile:build` which will create image in local container i am using docker toolbox (https://docs.docker.com/toolbox/toolbox_install_windows/)
 
 which will provide you docker terminal , and Virtual VM for image
 
-## For RUN user docker terminal 
+## RUN using docker terminal 
 
 docker run username/imagename:tagname in my case guravamit/stockappapi:latest
 

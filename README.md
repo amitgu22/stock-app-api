@@ -13,14 +13,16 @@ Navigate to `http://localhost:8080/`. The sotck app will rendered with basic det
 
 Navigate to `http://localhost:8080/swagger-ui.html#`. Will give you api documentation and will provide basic testing for get,put and modify.
 
-Navigate to `http://localhost:8080/h2` you will get in memory database instace with dummy data
+Navigate to `http://localhost:8080/h2` will give you in memory database instace with dummy data
 
 
 ## Docker image
 
 Added Dockerfile for image using maven-docker-plugin
 
-## For build the image `mvnw install && dockerfile:build` which will create image in local container i am using docker toolbox (https://docs.docker.com/toolbox/toolbox_install_windows/)
+## For build the image
+
+RUN `mvnw install && dockerfile:build` which will create image in local container i am using docker toolbox (https://docs.docker.com/toolbox/toolbox_install_windows/)
 
 which will provide you docker terminal , and Virtual VM for image
 

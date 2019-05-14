@@ -3,7 +3,7 @@
 
 This project was generated with spring boot , maven resource plugin , docker maven plugin
 
-I have used maven-resource plgun to copy static content (angular app --prod build generated files from dist folder to classes/static of jar)
+It uses maven-resource plgun to copy static content (angular app --prod build generated files from dist folder to classes/static of jar)
 
 ## For local Development server
 
